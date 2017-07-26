@@ -1,0 +1,78 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00D\x00J\x00I)
+
+[CustomBuildSystem]
+CurrentConfiguration=BuildConfig0
+
+[CustomBuildSystem][BuildConfig0]
+BuildDir=
+Title=
+
+[CustomBuildSystem][BuildConfig0][ProjectPath0]
+Defines=\x00\x00\x00\x00
+Includes=\x00\x00\x00\x00
+Path=.
+
+[CustomBuildSystem][BuildConfig0][ProjectPath1]
+Defines=\x00\x00\x00\x00
+Includes=\x00\x00\x00\x00
+Path=ArmorDetector.cpp
+
+[CustomBuildSystem][BuildConfig0][ToolBuild]
+Arguments=
+Enabled=false
+Environment=
+Executable=
+Type=0
+
+[CustomBuildSystem][BuildConfig0][ToolClean]
+Arguments=
+Enabled=false
+Environment=
+Executable=
+Type=3
+
+[CustomBuildSystem][BuildConfig0][ToolConfigure]
+Arguments=
+Enabled=false
+Environment=
+Executable=
+Type=1
+
+[CustomBuildSystem][BuildConfig0][ToolInstall]
+Arguments=
+Enabled=false
+Environment=
+Executable=
+Type=2
+
+[CustomBuildSystem][BuildConfig0][ToolPrune]
+Arguments=
+Enabled=false
+Environment=
+Executable=
+Type=4
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=新建 应用程序 启动器 (2)
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/lzy-dji/%E6%A1%8C%E9%9D%A2/%E5%BC%80%E6%BA%90%E8%B5%84%E6%96%99/%E7%AC%AC%E4%B8%80%E8%B5%9B%E5%AD%A33%E7%BB%84%E7%AE%97%E6%B3%95%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E7%AC%AC%E4%B8%80%E8%B5%9B%E5%AD%A33%E7%BB%84%E7%AE%97%E6%B3%95%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3.kdev4
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=
+Use External Terminal=false
+Working Directory=
+isExecutable=true
+
+[SourceFileTemplates]
+LastUsedTemplate=/home/lzy-dji/.kde/share/apps/kdevfiletemplates/template_descriptions/cmake_module.desktop
